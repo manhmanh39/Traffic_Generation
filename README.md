@@ -77,6 +77,7 @@ After execution, the following files will be generated in generated_traffic/:
 - rate_requirements.csv
 - uav_home_positions.csv
 - config.yaml
+  
 These outputs are ready for UAV-BS-user control simulations using MADDPG or similar RL algorithms.
 
 ## 5. Notes
