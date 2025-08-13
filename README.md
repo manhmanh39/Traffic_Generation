@@ -1,6 +1,6 @@
 # Traffic_Generation Project Documentation
 ## 0. Raw Data Source
-- Source: The raw traffic data is based on the 5GT-gen dataset (GitHub link), which provides per-second 5G traffic traces collected from real networks.
+- Source: The raw traffic data is based on the 5GT-gen dataset (https://github.com/0913ktg/5G-Traffic-Generator), which provides per-second 5G traffic traces collected from real networks.
 - Time Resolution: 1 timestep = 1 second.
 - Recorded Variables:
   + timestamp (seconds)
@@ -88,3 +88,4 @@
   + Generate UAV positions → uav_home_positions.csv
   + Save configuration → config.yaml
 - Output data is ready for RL simulation (UAV-BS-user control, MADDPG or similar).
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6e1172e9-7b24-4c95-b476-edbe30b619e3" />
