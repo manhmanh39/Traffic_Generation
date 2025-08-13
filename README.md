@@ -14,13 +14,13 @@ It processes raw 5G traffic data and produces all necessary outputs for reinforc
 > **Note:** Large CSV files in `raw_data/` and `generated_traffic/` are tracked via Git LFS. Ensure Git LFS is installed.
 
 ## 1. Project Structure
-Traffic_Generation/
-├─ generate_traffic.py # Main script
-├─ README.md # Project documentation
-├─ raw_data/ # Original CSV datasets
-├─ generated_traffic/ # Generated outputs
-├─ config.yaml # Saved simulation parameters
-└─ .gitattributes # LFS configuration
+Traffic_Generation/  
+├─ generate_traffic.py # Main script  
+├─ README.md # Project documentation  
+├─ raw_data/ # Original CSV datasets  
+├─ generated_traffic/ # Generated outputs  
+├─ config.yaml # Saved simulation parameters  
+└─ .gitattributes # LFS configuration  
 
 ## 2. Environment Setup
 - **Python libraries:** `numpy`, `pandas`, `pyyaml`  
